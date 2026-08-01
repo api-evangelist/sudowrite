@@ -1,8 +1,30 @@
 aid: sudowrite
 name: Sudowrite
-description: Sudowrite is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sudowrite is an AI writing platform built specifically for fiction and creative
+  writers, used by 300,000+ authors from debut novelists to bestselling
+  professionals. Its fiction-trained Muse AI model, alongside Story Bible
+  (AI-powered character, worldbuilding, plot, and style memory), First Draft
+  chapter drafting, and tools like Write, Rewrite, Describe, Expand, Brainstorm,
+  and Canvas, helps writers draft, revise, and develop stories faster without
+  sacrificing their voice. Sudowrite also offers a 1,000+ plugin marketplace,
+  multi-model support (Sudowrite Muse, Claude, GPT, Gemini), and web plus
+  iOS/Android apps. Named "a salvation" by The New Yorker and featured in The New
+  York Times, The Verge, Time, and Wired. Sudowrite publishes no public developer
+  API; the surface here is its consumer product, docs, and support properties.
 url: https://raw.githubusercontent.com/api-evangelist/sudowrite/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/1k2TYC2YpFUOb9cH9JmDo6QyUp8.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- AI
+- Writing
+- Fiction
+- Creative Writing
+- Generative AI
+- Content Generation
+- Authoring
+- Publishing
+- Productivity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,34 @@ maintainers:
 common:
 - type: Website
   url: https://sudowrite.com
+- type: Documentation
+  url: https://docs.sudowrite.com
+- type: Blog
+  url: https://blog.sudowrite.com
+- type: Pricing
+  url: https://sudowrite.com/pricing
+- type: SignUp
+  url: https://join.sudowrite.com
+- type: Login
+  url: https://editor.sudowrite.com
+- type: Support
+  url: https://sudowrite.com/faq
+- type: Community
+  url: https://discord.gg/wgZAK9RRfv
+- type: TermsOfService
+  url: https://sudowrite.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://sudowrite.com/privacy-policy
+- type: StatusPage
+  url: https://status.sudowrite.com
+- type: Lifecycle
+  url: lifecycle/sudowrite-lifecycle.yml
+- type: LLMsTxt
+  url: llms/sudowrite-llms.txt
+- type: DomainSecurity
+  url: security/sudowrite-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

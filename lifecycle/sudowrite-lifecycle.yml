@@ -1,0 +1,11 @@
+generated: '2026-07-21'
+method: searched
+source: https://sudowrite.com/llms.txt
+# Sudowrite is a consumer AI writing product; it publishes no public developer
+# API, so there is no API versioning or deprecation policy to capture. It does
+# operate a public status page, recorded here.
+versioning: null
+deprecation: null
+sla: null
+status_page: https://status.sudowrite.com
+deprecated_operations: []
